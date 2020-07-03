@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>oldfolio blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Fri, 03 Jul 2020 13:27:52 -0400</lastBuildDate>
-<pubDate>Fri, 03 Jul 2020 13:27:52 -0400</pubDate>
+<lastBuildDate>Fri, 03 Jul 2020 14:11:49 -0400</lastBuildDate>
+<pubDate>Fri, 03 Jul 2020 14:11:49 -0400</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Moving the Blog to Github
 </title><description><![CDATA[
 
-<p>Cam’s $2.00 a year NAT VPSs are great. So, moving my blog from the VPS I am leasing from Cam to Github is not about any problem with Cam’s services. Instead, I am trying to wean myself off of Cloudflare services. Serving the blog from a NAT VPS requires using a service like Cloudflare’s IPv6 proxy feature which allows you to serve IPv6-only sites to IPv4-only clients. Moving to Github is a step toward eliminating my use of Cloudflare. Moving to Github also means that I can continue to manage the blog from and push any updates I make from home to the Git repository.</p>
+<p>Cam’s $2.00 a year NAT VPSs are great. So, moving my blog from the VPS I am leasing from Cam to Github is not about any problem with Cam’s services. Instead, I am trying to wean myself off of Cloudflare services. Serving the blog from a NAT VPS requires using a service like Cloudflare’s IPv6 proxy feature which allows you to serve IPv6-only sites to IPv4-only clients. Moving to Github is a step toward eliminating my use of Cloudflare. Moving to Github also means that I can continue to manage the blog from home and push any updates I make from home to the Git repository.</p>
 
 <p>Tags: <a href='tag_site-hosting.html'>site-hosting</a></p>
 <!-- text end -->
