@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>oldfolio blog</title><link>/index.html</link>
+<description></description><language>en</language>
+<lastBuildDate>Fri, 03 Jul 2020 13:27:52 -0400</lastBuildDate>
+<pubDate>Fri, 03 Jul 2020 13:27:52 -0400</pubDate>
+<atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Moving the Blog to Github
+</title><description><![CDATA[
+
+<p>Cam’s $2.00 a year NAT VPSs are great. So, moving my blog from the VPS I am leasing from Cam to Github is not about any problem with Cam’s services. Instead, I am trying to wean myself off of Cloudflare services. Serving the blog from a NAT VPS requires using a service like Cloudflare’s IPv6 proxy feature which allows you to serve IPv6-only sites to IPv4-only clients. Moving to Github is a step toward eliminating my use of Cloudflare. Moving to Github also means that I can continue to manage the blog from and push any updates I make from home to the Git repository.</p>
+
+<p>Tags: <a href='tag_site-hosting.html'>site-hosting</a></p>
+<!-- text end -->
+]]></description><link>/moving-the-blog-to-github.html</link>
+<guid>/./moving-the-blog-to-github.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Fri, 03 Jul 2020 13:27:48 -0400</pubDate></item>
+<item><title>
+Self-Hosted vs. Third-Party Email
+</title><description><![CDATA[
+
+<p>Self-hosted email is probably my ideal, but for all sorts of practical reasons I inevitably go back to paying a third-party provider. It was bad enough when you had to worry about recipients not seeing your messages because their providers directed your messages to their spam folders – or, worse, completely discarded your messages without ever notifying you or your recipients. Microsoft was – and still is – notorious in this regard. The mysteriously unreliable algorithms that condemn a significant number of legitimate messages to the spam folder remain one of Microsoft’s many corporate secrets.</p>
+
+<p>The situation today, though, is even worse. In addition to worrying about whether your recipients will ever see your messages, you now have to worry about the messages of your potential correspondents reaching your own mail server. Some email providers no longer deliver messages to privately run email servers. I discovered this during my most recent foray into self-hosting. I had mistakenly assumed that whatever trouble I might have getting my outbound messages into recipients’ inboxes, I at least would not have to worry about missing incoming messages because my third-party mail provider had ‘helpfully’ rejected them on suspicion of being spam. I discovered that some mail servers were not even attempting to deliver to my server. (Yes, my MX, rDNS, SPF, DKIM, and DMARC records were all properly configured and connections to my server were secured with a Let’s Encrypt certificate.) Subsequently, I discovered other email providers complaining about this same issue. <a href="https://community.mxroute.com/t/verification-emails-from-u-haul/1275">A discussion at the MXroute forum</a> confirmed that some email sending servers block sending to some destinations, presumably to the inexpensive servers that might be leased by an individual or small business.</p>
+
+<p>So, at this point, I am back to relying on a third-party host for my email.</p>
+
+<p>Tags: <a href='tag_email.html'>email</a></p>
+<!-- text end -->
+]]></description><link>/self-hosted-vs-third-party-email.html</link>
+<guid>/./self-hosted-vs-third-party-email.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Thu, 25 Jun 2020 15:47:28 -0400</pubDate></item>
+<item><title>
+Self-Hosted Email, Part 2
+</title><description><![CDATA[
+
+<p>In my last post, I speculated that my experiment with self-hosted email might be "just another leg of the journey in my restless migration from one host to another." One of the big appeals of self-hosting is the ability to look at server logs when diagnosing problems. The corresponding downside is that you need to be monitoring those server logs all the time. That is exactly the sort of tedious task that I would like to hand over to someone else.</p>
+
+<p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
+
+<p>Tags: <a href='tag_email.html'>email</a></p>
+<!-- text end -->
+]]></description><link>/self-hosted-email-part-2.html</link>
+<guid>/./self-hosted-email-part-2.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Fri, 19 Jun 2020 10:14:53 -0400</pubDate></item>
+<item><title>
+Self-Hosting My Email
+</title><description><![CDATA[
+
+<p>Over the years, I have periodically set up and run my own email server. For the most part, these experiments were simply for learning purposes. I wanted to understand for myself what was involved in running a mail server, but I always took for granted that I would entrust the hosting of my primary email address to someone else -- someone who maintained mail servers for a living, someone working full-time at maintaining the mail server where my address would be managed.</p>
+
+<p>Through all these years, though, I never found an email provider that fully suited me. There are a number of solid, reliable email hosts out there. Inevitably, though, there would be details about each of their services that bothered me. I ended up migrating from one email host to another, never quite satisfied with any of them. So, a couple of weeks ago, I bit the bullet and moved email for my primary domain to a server I am managing myself. Today, I moved email for my secondary domain to that server as well. (Don't worry: I have additional, lower-priority MX records pointing to a backup email solution.)</p>
+
+<p>The final straw was discovering that my provider was silently discarding legitimate messages in an overly aggressive attempt to combat spam. Some of these were personal messages. Some were log-in verification codes that some services send when you log in from a new IP address. The point is that these messages were definitely not spam. I wanted to receive them. In the case of the log-in verification codes, I needed them. If the provider thought that the messages were suspicious, then the messages could have been directed to a spam folder. They weren't. They were simply discarded before they ever reached my account. That is a deal breaker for me.</p>
+
+<p>I don't know how long my foray into self-hosting will last. It may be just another leg of the journey in my restless migration from one host to another. I do know this, though: I really like being able to look at the server logs myself. I'm not sure I could go back to a solution where I cannot do that.</p>
+
+<p>Tags: <a href='tag_email.html'>email</a></p>
+<!-- text end -->
+]]></description><link>/self-hosting-my-email.html</link>
+<guid>/./self-hosting-my-email.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Tue, 09 Jun 2020 23:32:47 -0400</pubDate></item>
+<item><title>
+Contact Tracing Apps
+</title><description><![CDATA[
+
+<p>I read both <a href="https://www.schneier.com/blog/about/">Bruce Schneier</a> and <a href="https://www.troyhunt.com/about/">Troy Hunt</a> because their writings offer a useful window into how technically literate persons perceive technical issues. That window becomes especially revealing when Schneier and Hunt disagree. Installing a contact tracing app on your phone is supposed to alert you when you come into contact with someone infected with the COVID-19 virus – and also help governments track the spread of the disease. Hunt has been <a href="https://www.troyhunt.com/covidsafe-app-teardown-panel-discussion/">strongly pushing the use of these apps</a> on Twitter and on public panel discussions. Schneier, by contrast, has been arguing that contact tracing apps “<a href="https://www.schneier.com/blog/archives/2020/05/me_on_covad-19_.html">have absolutely no value</a>” and that “the idea that contact tracing can be done with an app...is just plain dumb.”</p>
+
+<p>Schneier and Hunt are both smart, and both have large audiences. Moreover, the intersection of social practice and technology is an important focus in the writings of both. So, when one of them is pushing a position that the other considers “just plain dumb” I take notice. So far, neither has directly addressed comments by the other. Their audiences, however, have noticed the contrast, and I’m curious to see how the disagreement plays out.</p>
+
+<p>Tags: <a href='tag_security-experts.html'>security-experts</a></p>
+<!-- text end -->
+]]></description><link>/contact-tracing-apps.html</link>
+<guid>/./contact-tracing-apps.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Sat, 02 May 2020 05:41:12 -0400</pubDate></item>
+<item><title>
+Low-End Servers
+</title><description><![CDATA[
+
+<p>Cam, of <a href="https://hosting.gullo.me/">Gullo's Hosting</a>, periodically runs deals where he offers OVZ containers for $2.00 per year -- $2.00 per year. That's significantly less than most VPSs cost per month, less than most dedicated servers cost per day. Standard pricing for an entry level VPS is about $5.00 per month among the industry-dominating providers, like Digital Ocean and Vultr. The cheapest regular pricing you will likely find is from the big German provider, Hetzner, whose VPSs start at €2.49 per month.</p>
+
+<p>I was curious to see just what one could do with a $2.00 server. This blog is now running on that $2.00 per year server. Keep in mind that at $2.00 per year you are not going to get a dedicated IPv4 address. What you get are 20 ports on an IPv4 NAT and an /80 block of IPv6 addresses. If you are using Cloudflare for your DNS hosting, you can proxy one of your IPv6 addresses to allow HTTP(S) access by clients that are limited to IPv4 -- which is how I have made this site available to the wider internet.</p>
+
+<p>UPDATE (2020-05-02): I have discovered an IPv4 front-end service that you can use to provide IPv4 access to servers (like Cam's $2 per year OVZ containers) that come only with an IPv6 address. <a href="http://v4-frontend.netiter.com">Netiter</a>'s IPv4 front-end offers a useful alternative for sites that are not behind Cloudflare's proxy.</p>
+
+<p>Tags: <a href='tag_VPS.html'>VPS</a></p>
+<!-- text end -->
+]]></description><link>/low-end-servers.html</link>
+<guid>/./low-end-servers.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Wed, 19 Feb 2020 13:27:26 -0500</pubDate></item>
+<item><title>
+Gopher vs. the Web
+</title><description><![CDATA[
+
+<p>Over at <a href="https://sdf.org/">SDF</a>, long-time member rbigelow is making his online presence exclusively over the gopher protocol. No more web. Bigelow has been a consistent champion of gopher as "the last commercial-free space on the Internet." Gopher's "commercial-free" character is probably the reason that gopher resources are getting harder and harder to access. Web browsers started removing support for gopher decades ago. When Firefox removed native support for gopher with the release of Firefox 2.0, you could still restore gopher support with the <a href="https://gopher.floodgap.com/overbite/">OverbiteFF</a> browser add-on. That went away with the release of Firefox 57. Seamonkey no longer has native gopher support, but the <a href="https://gopher.floodgap.com/overbite/">OverbiteFF</a> extension continues to work with it. That makes Seamonkey the last remaining modern browser that does not require a proxy in order to access gopher resources.</p>
+
+<p>I have maintained a gopher site at <a href="https://gopher.floodgap.com/gopher/gw.lite?=gopher.oldfolio.org+70+31">gopher.oldfolio.org</a> for more than five years and will continue to do so in order to help keep gopherspace alive. I also find Bigelow's abandonment of the web strongly appealing. I am tempted to do it myself. It is certainly the case that maintaining a gopher site is much easier than maintaining a web site. The trouble is that I am also deeply attached to old style static HTML pages. The web without JavaScript. The web without AMP. I love the look and feel of the static web and do not think I could bring myself to abandon it no matter how much appeal gopher exerts.</p>
+
+<p>Tags: <a href='tag_gopher.html'>gopher</a></p>
+<!-- text end -->
+]]></description><link>/gopher-vs-the-web.html</link>
+<guid>/./gopher-vs-the-web.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Sun, 12 Jan 2020 00:43:15 -0500</pubDate></item>
+<item><title>
+Bashblog, Next Generation
+</title><description><![CDATA[
+
+<p><a href="https://github.com/dvwallin/bashblog-ng/">David Wallin</a> has updated <a href="https://github.com/cfenollosa/bashblog/">Carlos Fenollosa</a>'s bashblog script. For a blogging platform I always seem to go back to bashblog because I have never found any other platform that was simpler or more elegant. I am still trying to learn how Wallin's script differs from Fenolloa's.</p>
+
+<p>What I would like to determine is how feasible it would be to use the script to generate non-blog static sites. Manually processing markdown files might be easier than trying to tweak the script, but tweakng the script is a learning opportunity even if it does not yield a static site maintenance tool that I can use.</p>
+
+<p>Tags: <a href='tag_blog-platforms.html'>blog-platforms</a></p>
+
+
+<!-- text end -->
+]]></description><link>/bashblog-next-generation.html</link>
+<guid>/./bashblog-next-generation.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Sat, 07 Dec 2019 23:09:18 -0500</pubDate></item>
+</channel></rss>

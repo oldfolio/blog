@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="main.css" type="text/css">
+<link rel="stylesheet" href="blog.css" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="Subscribe to this page..." href="feed.rss">
+<title>oldfolio blog</title>
+</head><body>
+<div id="divbodyholder">
+<div class="headerholder"><div class="header">
+<div id="title">
+<h1 class="nomargin"><a class="ablack" href="/index.html">oldfolio blog</a></h1>
+<div id="description"></div>
+
+</div>
+
+</div></div>
+<div id="divbody"><div class="content">
+<h3><a class="ablack" href="moving-the-blog-to-github.html">
+Moving the Blog to Github
+</a></h3>
+<!-- bashblog_timestamp: #202007031327.48# -->
+<div class="subtitle">July 03, 2020 &mdash; 
+oldfolio
+</div>
+<!-- text begin -->
+
+<p>Cam’s $2.00 a year NAT VPSs are great. So, moving my blog from the VPS I am leasing from Cam to Github is not about any problem with Cam’s services. Instead, I am trying to wean myself off of Cloudflare services. Serving the blog from a NAT VPS requires using a service like Cloudflare’s IPv6 proxy feature which allows you to serve IPv6-only sites to IPv4-only clients. Moving to Github is a step toward eliminating my use of Cloudflare. Moving to Github also means that I can continue to manage the blog from and push any updates I make from home to the Git repository.</p>
+
+<p>Tags: <a href='tag_site-hosting.html'>site-hosting</a></p>
+<!-- text end -->
+<h3><a class="ablack" href="self-hosted-vs-third-party-email.html">
+Self-Hosted vs. Third-Party Email
+</a></h3>
+<!-- bashblog_timestamp: #202006251547.28# -->
+<div class="subtitle">June 25, 2020 &mdash; 
+oldfolio
+</div>
+<!-- text begin -->
+
+<p>Self-hosted email is probably my ideal, but for all sorts of practical reasons I inevitably go back to paying a third-party provider. It was bad enough when you had to worry about recipients not seeing your messages because their providers directed your messages to their spam folders – or, worse, completely discarded your messages without ever notifying you or your recipients. Microsoft was – and still is – notorious in this regard. The mysteriously unreliable algorithms that condemn a significant number of legitimate messages to the spam folder remain one of Microsoft’s many corporate secrets.</p>
+
+<p>The situation today, though, is even worse. In addition to worrying about whether your recipients will ever see your messages, you now have to worry about the messages of your potential correspondents reaching your own mail server. Some email providers no longer deliver messages to privately run email servers. I discovered this during my most recent foray into self-hosting. I had mistakenly assumed that whatever trouble I might have getting my outbound messages into recipients’ inboxes, I at least would not have to worry about missing incoming messages because my third-party mail provider had ‘helpfully’ rejected them on suspicion of being spam. I discovered that some mail servers were not even attempting to deliver to my server. (Yes, my MX, rDNS, SPF, DKIM, and DMARC records were all properly configured and connections to my server were secured with a Let’s Encrypt certificate.) Subsequently, I discovered other email providers complaining about this same issue. <a href="https://community.mxroute.com/t/verification-emails-from-u-haul/1275">A discussion at the MXroute forum</a> confirmed that some email sending servers block sending to some destinations, presumably to the inexpensive servers that might be leased by an individual or small business.</p>
+
+<p>So, at this point, I am back to relying on a third-party host for my email.</p>
+
+<p>Tags: <a href='tag_email.html'>email</a></p>
+<!-- text end -->
+<h3><a class="ablack" href="self-hosted-email-part-2.html">
+Self-Hosted Email, Part 2
+</a></h3>
+<!-- bashblog_timestamp: #202006191014.53# -->
+<div class="subtitle">June 19, 2020 &mdash; 
+oldfolio
+</div>
+<!-- text begin -->
+
+<p>In my last post, I speculated that my experiment with self-hosted email might be "just another leg of the journey in my restless migration from one host to another." One of the big appeals of self-hosting is the ability to look at server logs when diagnosing problems. The corresponding downside is that you need to be monitoring those server logs all the time. That is exactly the sort of tedious task that I would like to hand over to someone else.</p>
+
+<p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
+
+<p>Tags: <a href='tag_email.html'>email</a></p>
+<!-- text end -->
+<h3><a class="ablack" href="self-hosting-my-email.html">
+Self-Hosting My Email
+</a></h3>
+<!-- bashblog_timestamp: #202006092332.47# -->
+<div class="subtitle">June 09, 2020 &mdash; 
+oldfolio
+</div>
+<!-- text begin -->
+
+<p>Over the years, I have periodically set up and run my own email server. For the most part, these experiments were simply for learning purposes. I wanted to understand for myself what was involved in running a mail server, but I always took for granted that I would entrust the hosting of my primary email address to someone else -- someone who maintained mail servers for a living, someone working full-time at maintaining the mail server where my address would be managed.</p>
+
+<p>Through all these years, though, I never found an email provider that fully suited me. There are a number of solid, reliable email hosts out there. Inevitably, though, there would be details about each of their services that bothered me. I ended up migrating from one email host to another, never quite satisfied with any of them. So, a couple of weeks ago, I bit the bullet and moved email for my primary domain to a server I am managing myself. Today, I moved email for my secondary domain to that server as well. (Don't worry: I have additional, lower-priority MX records pointing to a backup email solution.)</p>
+
+<p>The final straw was discovering that my provider was silently discarding legitimate messages in an overly aggressive attempt to combat spam. Some of these were personal messages. Some were log-in verification codes that some services send when you log in from a new IP address. The point is that these messages were definitely not spam. I wanted to receive them. In the case of the log-in verification codes, I needed them. If the provider thought that the messages were suspicious, then the messages could have been directed to a spam folder. They weren't. They were simply discarded before they ever reached my account. That is a deal breaker for me.</p>
+
+<p>I don't know how long my foray into self-hosting will last. It may be just another leg of the journey in my restless migration from one host to another. I do know this, though: I really like being able to look at the server logs myself. I'm not sure I could go back to a solution where I cannot do that.</p>
+
+<p>Tags: <a href='tag_email.html'>email</a></p>
+<!-- text end -->
+<h3><a class="ablack" href="contact-tracing-apps.html">
+Contact Tracing Apps
+</a></h3>
+<!-- bashblog_timestamp: #202005020541.12# -->
+<div class="subtitle">May 02, 2020 &mdash; 
+oldfolio
+</div>
+<!-- text begin -->
+
+<p>I read both <a href="https://www.schneier.com/blog/about/">Bruce Schneier</a> and <a href="https://www.troyhunt.com/about/">Troy Hunt</a> because their writings offer a useful window into how technically literate persons perceive technical issues. That window becomes especially revealing when Schneier and Hunt disagree. Installing a contact tracing app on your phone is supposed to alert you when you come into contact with someone infected with the COVID-19 virus – and also help governments track the spread of the disease. Hunt has been <a href="https://www.troyhunt.com/covidsafe-app-teardown-panel-discussion/">strongly pushing the use of these apps</a> on Twitter and on public panel discussions. Schneier, by contrast, has been arguing that contact tracing apps “<a href="https://www.schneier.com/blog/archives/2020/05/me_on_covad-19_.html">have absolutely no value</a>” and that “the idea that contact tracing can be done with an app...is just plain dumb.”</p>
+
+<p>Schneier and Hunt are both smart, and both have large audiences. Moreover, the intersection of social practice and technology is an important focus in the writings of both. So, when one of them is pushing a position that the other considers “just plain dumb” I take notice. So far, neither has directly addressed comments by the other. Their audiences, however, have noticed the contrast, and I’m curious to see how the disagreement plays out.</p>
+
+<p>Tags: <a href='tag_security-experts.html'>security-experts</a></p>
+<!-- text end -->
+<div id="all_posts"><a href="all_posts.html">View more posts</a> &mdash; <a href="all_tags.html">All tags</a> &mdash; <a href="feed.rss">Subscribe</a></div>
+</div>
+<div id="footer"><!--Copyright &copy; 2020 oldfolio<br>CC by-nc-nd<br><a href="">oldfolio</a> &mdash; <a href="mailto:"></a>--><br>
+Generated with <a href="https://github.com/dvwallin/bashblog-ng">bashblog-ng</a><!-- - (B)e (A)wesome & (S)imple (H)omie</div>-->
+</div></div>
+<!--<a href='https://github.com/' target='' class='github-corner' aria-label='Visit my profile on GitHub'><svg width='80' height='80' viewBox='0 0 250 250' style='fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;' aria-hidden='true'><path d='M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z'></path><path d='M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2' fill='currentColor' style='transform-origin: 130px 106px;' class='octo-arm'></path><path d='M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z' fill='currentColor' class='octo-body'></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>-->
+</body></html>
