@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel><title>oldfolio blog</title><link>/index.html</link>
+<channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Wed, 08 Jul 2020 22:55:34 -0400</lastBuildDate>
-<pubDate>Wed, 08 Jul 2020 22:55:34 -0400</pubDate>
+<lastBuildDate>Thu, 09 Jul 2020 09:45:45 -0400</lastBuildDate>
+<pubDate>Thu, 09 Jul 2020 09:45:45 -0400</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+The Original Bashblog
+</title><description><![CDATA[
+
+<p>One more change to the blog: I originally started this blog simply in order to experiment with <a href="https://github.com/dvwallin/bashblog-ng">David Wallin’s revision</a> of <a href="https://github.com/cfenollosa/bashblog">Carlos Fenollosa’s bashblog</a> script. Wallin had wanted to add more features without undermining the simplicity of Fenollos’a original script. Both scripts are actively maintained, and both are great tools for creating simple, static blogs. I do not really need the extra features that Wallin wanted to introduce, and since I am always trying to “<a href="https://en.wikipedia.org/wiki/Walden">simplify, simplify</a>” I decided to use Fenollosa’s script to generate this blog. At this point, though, there is not much difference. Fenollosa’s script is 1194 lines where Wallin’s is 1267 lines.</p>
+
+<p>Tags: <a href='tag_blog-platforms.html'>blog-platforms</a></p>
+<!-- text end -->
+]]></description><link>/the-original-bashblog.html</link>
+<guid>/./the-original-bashblog.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Thu, 09 Jul 2020 09:45:38 -0400</pubDate></item>
 <item><title>
 Moving the Blog to Github
 </title><description><![CDATA[
@@ -12,6 +24,7 @@ Moving the Blog to Github
 <p>Cam’s $2.00 a year NAT VPSs are great. So, moving my blog from the VPS I am leasing from Cam to Github is not about any problem with Cam’s services. Instead, I am trying to wean myself off of Cloudflare services. Serving the blog from a NAT VPS requires using a service like Cloudflare’s IPv6 proxy feature which allows you to serve IPv6-only sites to IPv4-only clients. Moving to Github is a step toward eliminating my use of Cloudflare. Moving to Github also means that I can continue to manage the blog from home and push any updates I make from home to the Git repository.</p>
 
 <p>Tags: <a href='tag_site-hosting.html'>site-hosting</a></p>
+
 
 <!-- text end -->
 ]]></description><link>/moving-the-blog-to-github.html</link>
@@ -30,6 +43,7 @@ Self-Hosted vs. Third-Party Email
 
 <p>Tags: <a href='tag_email.html'>email</a></p>
 
+
 <!-- text end -->
 ]]></description><link>/self-hosted-vs-third-party-email.html</link>
 <guid>/./self-hosted-vs-third-party-email.html</guid>
@@ -44,6 +58,7 @@ Self-Hosted Email, Part 2
 <p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
 
 <p>Tags: <a href='tag_email.html'>email</a></p>
+
 
 <!-- text end -->
 ]]></description><link>/self-hosted-email-part-2.html</link>
@@ -64,6 +79,7 @@ Self-Hosting My Email
 
 <p>Tags: <a href='tag_email.html'>email</a></p>
 
+
 <!-- text end -->
 ]]></description><link>/self-hosting-my-email.html</link>
 <guid>/./self-hosting-my-email.html</guid>
@@ -78,6 +94,7 @@ Contact Tracing Apps
 <p>Schneier and Hunt are both smart, and both have large audiences. Moreover, the intersection of social practice and technology is an important focus in the writings of both. So, when one of them is pushing a position that the other considers “just plain dumb” I take notice. So far, neither has directly addressed comments by the other. Their audiences, however, have noticed the contrast, and I’m curious to see how the disagreement plays out.</p>
 
 <p>Tags: <a href='tag_security-experts.html'>security-experts</a></p>
+
 
 <!-- text end -->
 ]]></description><link>/contact-tracing-apps.html</link>
@@ -96,6 +113,7 @@ Low-End Servers
 
 <p>Tags: <a href='tag_VPS.html'>VPS</a></p>
 
+
 <!-- text end -->
 ]]></description><link>/low-end-servers.html</link>
 <guid>/./low-end-servers.html</guid>
@@ -111,6 +129,7 @@ Gopher vs. the Web
 
 <p>Tags: <a href='tag_gopher.html'>gopher</a></p>
 
+
 <!-- text end -->
 ]]></description><link>/gopher-vs-the-web.html</link>
 <guid>/./gopher-vs-the-web.html</guid>
@@ -125,6 +144,7 @@ Bashblog, Next Generation
 <p>What I would like to determine is how feasible it would be to use the script to generate non-blog static sites. Manually processing markdown files might be easier than trying to tweak the script, but tweakng the script is a learning opportunity even if it does not yield a static site maintenance tool that I can use.</p>
 
 <p>Tags: <a href='tag_blog-platforms.html'>blog-platforms</a></p>
+
 
 
 
