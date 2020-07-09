@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>oldfolio blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Fri, 03 Jul 2020 14:11:49 -0400</lastBuildDate>
-<pubDate>Fri, 03 Jul 2020 14:11:49 -0400</pubDate>
+<lastBuildDate>Wed, 08 Jul 2020 22:55:34 -0400</lastBuildDate>
+<pubDate>Wed, 08 Jul 2020 22:55:34 -0400</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Moving the Blog to Github
@@ -12,6 +12,7 @@ Moving the Blog to Github
 <p>Cam’s $2.00 a year NAT VPSs are great. So, moving my blog from the VPS I am leasing from Cam to Github is not about any problem with Cam’s services. Instead, I am trying to wean myself off of Cloudflare services. Serving the blog from a NAT VPS requires using a service like Cloudflare’s IPv6 proxy feature which allows you to serve IPv6-only sites to IPv4-only clients. Moving to Github is a step toward eliminating my use of Cloudflare. Moving to Github also means that I can continue to manage the blog from home and push any updates I make from home to the Git repository.</p>
 
 <p>Tags: <a href='tag_site-hosting.html'>site-hosting</a></p>
+
 <!-- text end -->
 ]]></description><link>/moving-the-blog-to-github.html</link>
 <guid>/./moving-the-blog-to-github.html</guid>
@@ -28,6 +29,7 @@ Self-Hosted vs. Third-Party Email
 <p>So, at this point, I am back to relying on a third-party host for my email.</p>
 
 <p>Tags: <a href='tag_email.html'>email</a></p>
+
 <!-- text end -->
 ]]></description><link>/self-hosted-vs-third-party-email.html</link>
 <guid>/./self-hosted-vs-third-party-email.html</guid>
@@ -42,6 +44,7 @@ Self-Hosted Email, Part 2
 <p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
 
 <p>Tags: <a href='tag_email.html'>email</a></p>
+
 <!-- text end -->
 ]]></description><link>/self-hosted-email-part-2.html</link>
 <guid>/./self-hosted-email-part-2.html</guid>
@@ -60,6 +63,7 @@ Self-Hosting My Email
 <p>I don't know how long my foray into self-hosting will last. It may be just another leg of the journey in my restless migration from one host to another. I do know this, though: I really like being able to look at the server logs myself. I'm not sure I could go back to a solution where I cannot do that.</p>
 
 <p>Tags: <a href='tag_email.html'>email</a></p>
+
 <!-- text end -->
 ]]></description><link>/self-hosting-my-email.html</link>
 <guid>/./self-hosting-my-email.html</guid>
@@ -74,6 +78,7 @@ Contact Tracing Apps
 <p>Schneier and Hunt are both smart, and both have large audiences. Moreover, the intersection of social practice and technology is an important focus in the writings of both. So, when one of them is pushing a position that the other considers “just plain dumb” I take notice. So far, neither has directly addressed comments by the other. Their audiences, however, have noticed the contrast, and I’m curious to see how the disagreement plays out.</p>
 
 <p>Tags: <a href='tag_security-experts.html'>security-experts</a></p>
+
 <!-- text end -->
 ]]></description><link>/contact-tracing-apps.html</link>
 <guid>/./contact-tracing-apps.html</guid>
@@ -90,6 +95,7 @@ Low-End Servers
 <p>UPDATE (2020-05-02): I have discovered an IPv4 front-end service that you can use to provide IPv4 access to servers (like Cam's $2 per year OVZ containers) that come only with an IPv6 address. <a href="http://v4-frontend.netiter.com">Netiter</a>'s IPv4 front-end offers a useful alternative for sites that are not behind Cloudflare's proxy.</p>
 
 <p>Tags: <a href='tag_VPS.html'>VPS</a></p>
+
 <!-- text end -->
 ]]></description><link>/low-end-servers.html</link>
 <guid>/./low-end-servers.html</guid>
@@ -104,6 +110,7 @@ Gopher vs. the Web
 <p>I have maintained a gopher site at <a href="https://gopher.floodgap.com/gopher/gw.lite?=gopher.oldfolio.org+70+31">gopher.oldfolio.org</a> for more than five years and will continue to do so in order to help keep gopherspace alive. I also find Bigelow's abandonment of the web strongly appealing. I am tempted to do it myself. It is certainly the case that maintaining a gopher site is much easier than maintaining a web site. The trouble is that I am also deeply attached to old style static HTML pages. The web without JavaScript. The web without AMP. I love the look and feel of the static web and do not think I could bring myself to abandon it no matter how much appeal gopher exerts.</p>
 
 <p>Tags: <a href='tag_gopher.html'>gopher</a></p>
+
 <!-- text end -->
 ]]></description><link>/gopher-vs-the-web.html</link>
 <guid>/./gopher-vs-the-web.html</guid>
@@ -118,6 +125,7 @@ Bashblog, Next Generation
 <p>What I would like to determine is how feasible it would be to use the script to generate non-blog static sites. Manually processing markdown files might be easier than trying to tweak the script, but tweakng the script is a learning opportunity even if it does not yield a static site maintenance tool that I can use.</p>
 
 <p>Tags: <a href='tag_blog-platforms.html'>blog-platforms</a></p>
+
 
 
 <!-- text end -->
