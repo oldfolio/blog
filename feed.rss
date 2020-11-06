@@ -2,9 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Thu, 09 Jul 2020 09:56:06 -0400</lastBuildDate>
-<pubDate>Thu, 09 Jul 2020 09:56:06 -0400</pubDate>
+<lastBuildDate>Fri, 06 Nov 2020 18:10:50 -0500</lastBuildDate>
+<pubDate>Fri, 06 Nov 2020 18:10:50 -0500</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Gemini
+</title><description><![CDATA[
+
+<p>Over at <a href="https://oldvcr.blogspot.com/2020/11/a-gopher-view-of-gemini.html">Old Vintage Computing Research</a>, Cameron Kaiser offers a nice comparative analysis of Gopher and the new Gemini protocal. As Kaiser puts it, "Gemini isn't going to displace Gopher — though in fairness nor does it try — because it just simply doesn't scratch the same itches." The whole article is well worth a read.</p>
+
+<p>Tags: <a href='tag_gopher.html'>gopher</a></p>
+<!-- text end -->
+]]></description><link>/gemini.html</link>
+<guid>/./gemini.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Fri, 06 Nov 2020 18:10:46 -0500</pubDate></item>
 <item><title>
 The Original Bashblog
 </title><description><![CDATA[
