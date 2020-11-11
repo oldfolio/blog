@@ -2,9 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Fri, 06 Nov 2020 18:10:50 -0500</lastBuildDate>
-<pubDate>Fri, 06 Nov 2020 18:10:50 -0500</pubDate>
+<lastBuildDate>Wed, 11 Nov 2020 08:49:51 -0500</lastBuildDate>
+<pubDate>Wed, 11 Nov 2020 08:49:51 -0500</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+datagubbe.se Site Colophon
+</title><description><![CDATA[
+
+<p>From Carl Svensson:</p>
+
+<blockquote>
+  <p>Too many pages rely far too heavily on a presumptive user having the latest browser, fastest computer and highest bandwidth.</p>
+</blockquote>
+
+<p>The whole <a href="https://datagubbe.se/colophon/">article</a> is worth a read -- as are Svensson's other musings.</p>
+
+<p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
+<!-- text end -->
+]]></description><link>/datagubbese-site-colophon.html</link>
+<guid>/./datagubbese-site-colophon.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Wed, 11 Nov 2020 08:49:48 -0500</pubDate></item>
 <item><title>
 Gemini
 </title><description><![CDATA[
@@ -147,22 +165,4 @@ Gopher vs. the Web
 <guid>/./gopher-vs-the-web.html</guid>
 <dc:creator>oldfolio</dc:creator>
 <pubDate>Sun, 12 Jan 2020 00:43:15 -0500</pubDate></item>
-<item><title>
-Bashblog, Next Generation
-</title><description><![CDATA[
-
-<p><a href="https://github.com/dvwallin/bashblog-ng/">David Wallin</a> has updated <a href="https://github.com/cfenollosa/bashblog/">Carlos Fenollosa</a>'s bashblog script. For a blogging platform I always seem to go back to bashblog because I have never found any other platform that was simpler or more elegant. I am still trying to learn how Wallin's script differs from Fenolloa's.</p>
-
-<p>What I would like to determine is how feasible it would be to use the script to generate non-blog static sites. Manually processing markdown files might be easier than trying to tweak the script, but tweakng the script is a learning opportunity even if it does not yield a static site maintenance tool that I can use.</p>
-
-<p>Tags: <a href='tag_blog-platforms.html'>blog-platforms</a></p>
-
-
-
-
-<!-- text end -->
-]]></description><link>/bashblog-next-generation.html</link>
-<guid>/./bashblog-next-generation.html</guid>
-<dc:creator>oldfolio</dc:creator>
-<pubDate>Sat, 07 Dec 2019 23:09:18 -0500</pubDate></item>
 </channel></rss>
