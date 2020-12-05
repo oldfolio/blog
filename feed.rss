@@ -2,9 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Wed, 11 Nov 2020 08:49:51 -0500</lastBuildDate>
-<pubDate>Wed, 11 Nov 2020 08:49:51 -0500</pubDate>
+<lastBuildDate>Fri, 04 Dec 2020 19:40:40 -0500</lastBuildDate>
+<pubDate>Fri, 04 Dec 2020 19:40:40 -0500</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+The Need for a Return to the Desktop Computer
+</title><description><![CDATA[
+
+<p>Some reflections on the future of computing at the <a href="http://misc-stuff.terraaeon.com/articles/locked-down-computers.html">Miscellaneous Stuff</a> blog:</p>
+
+<blockquote>
+  <p>The future of personal computing looks rather bleak to me... They are making it harder and harder for us to do what we want with our computers. They are successfully taking away our general-purpose computers and replacing them with little more than Internet appliances...</p>
+
+<p>I am not looking forward to a near-term future in which my operating system is so locked down that I cannot install the software I want. Many have already reached this future.</p>
+</blockquote>
+
+<p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
+<!-- text end -->
+]]></description><link>/the-need-for-a-return-to-the-desktop-computer.html</link>
+<guid>/./the-need-for-a-return-to-the-desktop-computer.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Fri, 04 Dec 2020 19:40:37 -0500</pubDate></item>
 <item><title>
 datagubbe.se Site Colophon
 </title><description><![CDATA[
@@ -149,20 +167,4 @@ Low-End Servers
 <guid>/./low-end-servers.html</guid>
 <dc:creator>oldfolio</dc:creator>
 <pubDate>Wed, 19 Feb 2020 13:27:26 -0500</pubDate></item>
-<item><title>
-Gopher vs. the Web
-</title><description><![CDATA[
-
-<p>Over at <a href="https://sdf.org/">SDF</a>, long-time member rbigelow is making his online presence exclusively over the gopher protocol. No more web. Bigelow has been a consistent champion of gopher as "the last commercial-free space on the Internet." Gopher's "commercial-free" character is probably the reason that gopher resources are getting harder and harder to access. Web browsers started removing support for gopher decades ago. When Firefox removed native support for gopher with the release of Firefox 2.0, you could still restore gopher support with the <a href="https://gopher.floodgap.com/overbite/">OverbiteFF</a> browser add-on. That went away with the release of Firefox 57. Seamonkey no longer has native gopher support, but the <a href="https://gopher.floodgap.com/overbite/">OverbiteFF</a> extension continues to work with it. That makes Seamonkey the last remaining modern browser that does not require a proxy in order to access gopher resources.</p>
-
-<p>I have maintained a gopher site at <a href="https://gopher.floodgap.com/gopher/gw.lite?=gopher.oldfolio.org+70+31">gopher.oldfolio.org</a> for more than five years and will continue to do so in order to help keep gopherspace alive. I also find Bigelow's abandonment of the web strongly appealing. I am tempted to do it myself. It is certainly the case that maintaining a gopher site is much easier than maintaining a web site. The trouble is that I am also deeply attached to old style static HTML pages. The web without JavaScript. The web without AMP. I love the look and feel of the static web and do not think I could bring myself to abandon it no matter how much appeal gopher exerts.</p>
-
-<p>Tags: <a href='tag_gopher.html'>gopher</a></p>
-
-
-<!-- text end -->
-]]></description><link>/gopher-vs-the-web.html</link>
-<guid>/./gopher-vs-the-web.html</guid>
-<dc:creator>oldfolio</dc:creator>
-<pubDate>Sun, 12 Jan 2020 00:43:15 -0500</pubDate></item>
 </channel></rss>
