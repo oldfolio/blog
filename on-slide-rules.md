@@ -4,6 +4,8 @@ Wow. It has been two years since I have posted to this blog, and I suspect it ma
 
 >...slide rules are an elegant computing solution. They require no power. They last forever. And, they work well enough to solve most problems where an individual understands the basic principles associated with the problem he is trying to solve.
 
+The *Miscellaneous Stuff* author is worried that fewer and fewer people understand the “basic principles” of the problems they are addressing. I think he may be right about that.
+
 [terra]: http://misc-stuff.terraaeon.com/articles/slide-rule-prices.html
 
 Tags: tech-trends

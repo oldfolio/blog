@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Sun, 04 Dec 2022 08:30:07 -0500</lastBuildDate>
-<pubDate>Sun, 04 Dec 2022 08:30:07 -0500</pubDate>
+<lastBuildDate>Sun, 04 Dec 2022 08:50:31 -0500</lastBuildDate>
+<pubDate>Sun, 04 Dec 2022 08:50:31 -0500</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 On Slide Rules
@@ -14,6 +14,8 @@ On Slide Rules
 <blockquote>
   <p>...slide rules are an elegant computing solution. They require no power. They last forever. And, they work well enough to solve most problems where an individual understands the basic principles associated with the problem he is trying to solve.</p>
 </blockquote>
+
+<p>The <em>Miscellaneous Stuff</em> author is worried that fewer and fewer people understand the “basic principles” of the problems they are addressing. I think he may be right about that.</p>
 
 <p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
 
@@ -36,6 +38,7 @@ The Need for a Return to the Desktop Computer
 
 <p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
 
+
 <!-- text end -->
 ]]></description><link>/the-need-for-a-return-to-the-desktop-computer.html</link>
 <guid>/./the-need-for-a-return-to-the-desktop-computer.html</guid>
@@ -55,6 +58,7 @@ datagubbe.se Site Colophon
 
 <p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
 
+
 <!-- text end -->
 ]]></description><link>/datagubbese-site-colophon.html</link>
 <guid>/./datagubbese-site-colophon.html</guid>
@@ -67,6 +71,7 @@ Gemini
 <p>Over at <a href="https://oldvcr.blogspot.com/2020/11/a-gopher-view-of-gemini.html">Old Vintage Computing Research</a>, Cameron Kaiser offers a nice comparative analysis of Gopher and the new Gemini protocal. As Kaiser puts it, "Gemini isn't going to displace Gopher — though in fairness nor does it try — because it just simply doesn't scratch the same itches." The whole article is well worth a read.</p>
 
 <p>Tags: <a href='tag_gopher.html'>gopher</a></p>
+
 
 <!-- text end -->
 ]]></description><link>/gemini.html</link>
@@ -81,6 +86,7 @@ The Original Bashblog
 
 <p>Tags: <a href='tag_blog-platforms.html'>blog-platforms</a></p>
 
+
 <!-- text end -->
 ]]></description><link>/the-original-bashblog.html</link>
 <guid>/./the-original-bashblog.html</guid>
@@ -93,6 +99,7 @@ Moving the Blog to Github
 <p>Cam’s $2.00 a year NAT VPSs are great. So, moving my blog from the VPS I am leasing from Cam to Github is not about any problem with Cam’s services. Instead, I am trying to wean myself off of Cloudflare services. Serving the blog from a NAT VPS requires using a service like Cloudflare’s IPv6 proxy feature which allows you to serve IPv6-only sites to IPv4-only clients. Moving to Github is a step toward eliminating my use of Cloudflare. Moving to Github also means that I can continue to manage the blog from home and push any updates I make from home to the Git repository.</p>
 
 <p>Tags: <a href='tag_site-hosting.html'>site-hosting</a></p>
+
 
 
 
@@ -115,6 +122,7 @@ Self-Hosted vs. Third-Party Email
 
 
 
+
 <!-- text end -->
 ]]></description><link>/self-hosted-vs-third-party-email.html</link>
 <guid>/./self-hosted-vs-third-party-email.html</guid>
@@ -129,6 +137,7 @@ Self-Hosted Email, Part 2
 <p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
 
 <p>Tags: <a href='tag_email.html'>email</a></p>
+
 
 
 
@@ -153,6 +162,7 @@ Self-Hosting My Email
 
 
 
+
 <!-- text end -->
 ]]></description><link>/self-hosting-my-email.html</link>
 <guid>/./self-hosting-my-email.html</guid>
@@ -167,6 +177,7 @@ Contact Tracing Apps
 <p>Schneier and Hunt are both smart, and both have large audiences. Moreover, the intersection of social practice and technology is an important focus in the writings of both. So, when one of them is pushing a position that the other considers “just plain dumb” I take notice. So far, neither has directly addressed comments by the other. Their audiences, however, have noticed the contrast, and I’m curious to see how the disagreement plays out.</p>
 
 <p>Tags: <a href='tag_security-experts.html'>security-experts</a></p>
+
 
 
 
