@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Sun, 04 Dec 2022 08:25:10 -0500</lastBuildDate>
-<pubDate>Sun, 04 Dec 2022 08:25:10 -0500</pubDate>
+<lastBuildDate>Sun, 04 Dec 2022 08:30:07 -0500</lastBuildDate>
+<pubDate>Sun, 04 Dec 2022 08:30:07 -0500</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 On Slide Rules
@@ -16,27 +16,31 @@ On Slide Rules
 </blockquote>
 
 <p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
+
 <!-- text end -->
 ]]></description><link>/on-slide-rules.html</link>
 <guid>/./on-slide-rules.html</guid>
 <dc:creator>oldfolio</dc:creator>
 <pubDate>Sun, 04 Dec 2022 08:25:04 -0500</pubDate></item>
 <item><title>
-Contact Tracing Apps
+The Need for a Return to the Desktop Computer
 </title><description><![CDATA[
 
-<p>I read both <a href="https://www.schneier.com/blog/about/">Bruce Schneier</a> and <a href="https://www.troyhunt.com/about/">Troy Hunt</a> because their writings offer a useful window into how technically literate persons perceive technical issues. That window becomes especially revealing when Schneier and Hunt disagree. Installing a contact tracing app on your phone is supposed to alert you when you come into contact with someone infected with the COVID-19 virus – and also help governments track the spread of the disease. Hunt has been <a href="https://www.troyhunt.com/covidsafe-app-teardown-panel-discussion/">strongly pushing the use of these apps</a> on Twitter and on public panel discussions. Schneier, by contrast, has been arguing that contact tracing apps “<a href="https://www.schneier.com/blog/archives/2020/05/me_on_covad-19_.html">have absolutely no value</a>” and that “the idea that contact tracing can be done with an app...is just plain dumb.”</p>
+<p>Some reflections on the future of computing at the <a href="http://misc-stuff.terraaeon.com/articles/locked-down-computers.html">Miscellaneous Stuff</a> blog:</p>
 
-<p>Schneier and Hunt are both smart, and both have large audiences. Moreover, the intersection of social practice and technology is an important focus in the writings of both. So, when one of them is pushing a position that the other considers “just plain dumb” I take notice. So far, neither has directly addressed comments by the other. Their audiences, however, have noticed the contrast, and I’m curious to see how the disagreement plays out.</p>
+<blockquote>
+  <p>The future of personal computing looks rather bleak to me... They are making it harder and harder for us to do what we want with our computers. They are successfully taking away our general-purpose computers and replacing them with little more than Internet appliances...</p>
 
-<p>Tags: <a href='tag_security-experts.html'>security-experts</a></p>
+<p>I am not looking forward to a near-term future in which my operating system is so locked down that I cannot install the software I want. Many have already reached this future.</p>
+</blockquote>
 
+<p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
 
 <!-- text end -->
-]]></description><link>/contact-tracing-apps.html</link>
-<guid>/./contact-tracing-apps.html</guid>
+]]></description><link>/the-need-for-a-return-to-the-desktop-computer.html</link>
+<guid>/./the-need-for-a-return-to-the-desktop-computer.html</guid>
 <dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
+<pubDate>Fri, 04 Dec 2020 19:40:37 -0500</pubDate></item>
 <item><title>
 datagubbe.se Site Colophon
 </title><description><![CDATA[
@@ -50,11 +54,12 @@ datagubbe.se Site Colophon
 <p>The whole <a href="https://datagubbe.se/colophon/">article</a> is worth a read -- as are Svensson's other musings.</p>
 
 <p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
+
 <!-- text end -->
 ]]></description><link>/datagubbese-site-colophon.html</link>
 <guid>/./datagubbese-site-colophon.html</guid>
 <dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
+<pubDate>Wed, 11 Nov 2020 08:49:48 -0500</pubDate></item>
 <item><title>
 Gemini
 </title><description><![CDATA[
@@ -62,45 +67,25 @@ Gemini
 <p>Over at <a href="https://oldvcr.blogspot.com/2020/11/a-gopher-view-of-gemini.html">Old Vintage Computing Research</a>, Cameron Kaiser offers a nice comparative analysis of Gopher and the new Gemini protocal. As Kaiser puts it, "Gemini isn't going to displace Gopher — though in fairness nor does it try — because it just simply doesn't scratch the same itches." The whole article is well worth a read.</p>
 
 <p>Tags: <a href='tag_gopher.html'>gopher</a></p>
+
 <!-- text end -->
 ]]></description><link>/gemini.html</link>
 <guid>/./gemini.html</guid>
 <dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
+<pubDate>Fri, 06 Nov 2020 18:10:46 -0500</pubDate></item>
 <item><title>
-Gopher vs. the Web
+The Original Bashblog
 </title><description><![CDATA[
 
-<p>Over at <a href="https://sdf.org/">SDF</a>, long-time member rbigelow is making his online presence exclusively over the gopher protocol. No more web. Bigelow has been a consistent champion of gopher as "the last commercial-free space on the Internet." Gopher's "commercial-free" character is probably the reason that gopher resources are getting harder and harder to access. Web browsers started removing support for gopher decades ago. When Firefox removed native support for gopher with the release of Firefox 2.0, you could still restore gopher support with the <a href="https://gopher.floodgap.com/overbite/">OverbiteFF</a> browser add-on. That went away with the release of Firefox 57. Seamonkey no longer has native gopher support, but the <a href="https://gopher.floodgap.com/overbite/">OverbiteFF</a> extension continues to work with it. That makes Seamonkey the last remaining modern browser that does not require a proxy in order to access gopher resources.</p>
+<p>One more change to the blog: I originally started this blog simply in order to experiment with <a href="https://github.com/dvwallin/bashblog-ng">David Wallin’s revision</a> of <a href="https://github.com/cfenollosa/bashblog">Carlos Fenollosa’s bashblog</a> script. Wallin had wanted to add more features without undermining the simplicity of Fenollos’a original script. Both scripts are actively maintained, and both are great tools for creating simple, static blogs. I do not really need the extra features that Wallin wanted to introduce, and since I am always trying to “<a href="https://en.wikipedia.org/wiki/Walden">simplify, simplify</a>” I decided to switch from using Wallin’s script to using Fenollosa’s script to generate this blog. At this point, though, there is not much difference. Fenollosa’s script is 1194 lines where Wallin’s is 1267 lines.</p>
 
-<p>I have maintained a gopher site at <a href="https://gopher.floodgap.com/gopher/gw.lite?=gopher.oldfolio.org+70+31">gopher.oldfolio.org</a> for more than five years and will continue to do so in order to help keep gopherspace alive. I also find Bigelow's abandonment of the web strongly appealing. I am tempted to do it myself. It is certainly the case that maintaining a gopher site is much easier than maintaining a web site. The trouble is that I am also deeply attached to old style static HTML pages. The web without JavaScript. The web without AMP. I love the look and feel of the static web and do not think I could bring myself to abandon it no matter how much appeal gopher exerts.</p>
-
-<p>Tags: <a href='tag_gopher.html'>gopher</a></p>
-
+<p>Tags: <a href='tag_blog-platforms.html'>blog-platforms</a></p>
 
 <!-- text end -->
-]]></description><link>/gopher-vs-the-web.html</link>
-<guid>/./gopher-vs-the-web.html</guid>
+]]></description><link>/the-original-bashblog.html</link>
+<guid>/./the-original-bashblog.html</guid>
 <dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
-<item><title>
-Low-End Servers
-</title><description><![CDATA[
-
-<p>Cam, of <a href="https://hosting.gullo.me/">Gullo's Hosting</a>, periodically runs deals where he offers OVZ containers for $2.00 per year -- $2.00 per year. That's significantly less than most VPSs cost per month, less than most dedicated servers cost per day. Standard pricing for an entry level VPS is about $5.00 per month among the industry-dominating providers, like Digital Ocean and Vultr. The cheapest regular pricing you will likely find is from the big German provider, Hetzner, whose VPSs start at €2.49 per month.</p>
-
-<p>I was curious to see just what one could do with a $2.00 server. This blog is now running on that $2.00 per year server. Keep in mind that at $2.00 per year you are not going to get a dedicated IPv4 address. What you get are 20 ports on an IPv4 NAT and an /80 block of IPv6 addresses. If you are using Cloudflare for your DNS hosting, you can proxy one of your IPv6 addresses to allow HTTP(S) access by clients that are limited to IPv4 -- which is how I have made this site available to the wider internet.</p>
-
-<p>UPDATE (2020-05-02): I have discovered an IPv4 front-end service that you can use to provide IPv4 access to servers (like Cam's $2 per year OVZ containers) that come only with an IPv6 address. <a href="http://v4-frontend.netiter.com">Netiter</a>'s IPv4 front-end offers a useful alternative for sites that are not behind Cloudflare's proxy.</p>
-
-<p>Tags: <a href='tag_VPS.html'>VPS</a></p>
-
-
-<!-- text end -->
-]]></description><link>/low-end-servers.html</link>
-<guid>/./low-end-servers.html</guid>
-<dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
+<pubDate>Thu, 09 Jul 2020 09:45:38 -0400</pubDate></item>
 <item><title>
 Moving the Blog to Github
 </title><description><![CDATA[
@@ -110,27 +95,12 @@ Moving the Blog to Github
 <p>Tags: <a href='tag_site-hosting.html'>site-hosting</a></p>
 
 
+
 <!-- text end -->
 ]]></description><link>/moving-the-blog-to-github.html</link>
 <guid>/./moving-the-blog-to-github.html</guid>
 <dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
-<item><title>
-Self-Hosted Email, Part 2
-</title><description><![CDATA[
-
-<p>In my last post, I speculated that my experiment with self-hosted email might be "just another leg of the journey in my restless migration from one host to another." One of the big appeals of self-hosting is the ability to look at server logs when diagnosing problems. The corresponding downside is that you need to be monitoring those server logs all the time. That is exactly the sort of tedious task that I would like to hand over to someone else.</p>
-
-<p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
-
-<p>Tags: <a href='tag_email.html'>email</a></p>
-
-
-<!-- text end -->
-]]></description><link>/self-hosted-email-part-2.html</link>
-<guid>/./self-hosted-email-part-2.html</guid>
-<dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
+<pubDate>Fri, 03 Jul 2020 13:27:48 -0400</pubDate></item>
 <item><title>
 Self-Hosted vs. Third-Party Email
 </title><description><![CDATA[
@@ -144,11 +114,29 @@ Self-Hosted vs. Third-Party Email
 <p>Tags: <a href='tag_email.html'>email</a></p>
 
 
+
 <!-- text end -->
 ]]></description><link>/self-hosted-vs-third-party-email.html</link>
 <guid>/./self-hosted-vs-third-party-email.html</guid>
 <dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
+<pubDate>Thu, 25 Jun 2020 15:47:28 -0400</pubDate></item>
+<item><title>
+Self-Hosted Email, Part 2
+</title><description><![CDATA[
+
+<p>In my last post, I speculated that my experiment with self-hosted email might be "just another leg of the journey in my restless migration from one host to another." One of the big appeals of self-hosting is the ability to look at server logs when diagnosing problems. The corresponding downside is that you need to be monitoring those server logs all the time. That is exactly the sort of tedious task that I would like to hand over to someone else.</p>
+
+<p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
+
+<p>Tags: <a href='tag_email.html'>email</a></p>
+
+
+
+<!-- text end -->
+]]></description><link>/self-hosted-email-part-2.html</link>
+<guid>/./self-hosted-email-part-2.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Fri, 19 Jun 2020 10:14:53 -0400</pubDate></item>
 <item><title>
 Self-Hosting My Email
 </title><description><![CDATA[
@@ -164,9 +152,27 @@ Self-Hosting My Email
 <p>Tags: <a href='tag_email.html'>email</a></p>
 
 
+
 <!-- text end -->
 ]]></description><link>/self-hosting-my-email.html</link>
 <guid>/./self-hosting-my-email.html</guid>
 <dc:creator>oldfolio</dc:creator>
-<pubDate>Wed, 30 Nov 2022 13:36:24 -0500</pubDate></item>
+<pubDate>Tue, 09 Jun 2020 23:32:47 -0400</pubDate></item>
+<item><title>
+Contact Tracing Apps
+</title><description><![CDATA[
+
+<p>I read both <a href="https://www.schneier.com/blog/about/">Bruce Schneier</a> and <a href="https://www.troyhunt.com/about/">Troy Hunt</a> because their writings offer a useful window into how technically literate persons perceive technical issues. That window becomes especially revealing when Schneier and Hunt disagree. Installing a contact tracing app on your phone is supposed to alert you when you come into contact with someone infected with the COVID-19 virus – and also help governments track the spread of the disease. Hunt has been <a href="https://www.troyhunt.com/covidsafe-app-teardown-panel-discussion/">strongly pushing the use of these apps</a> on Twitter and on public panel discussions. Schneier, by contrast, has been arguing that contact tracing apps “<a href="https://www.schneier.com/blog/archives/2020/05/me_on_covad-19_.html">have absolutely no value</a>” and that “the idea that contact tracing can be done with an app...is just plain dumb.”</p>
+
+<p>Schneier and Hunt are both smart, and both have large audiences. Moreover, the intersection of social practice and technology is an important focus in the writings of both. So, when one of them is pushing a position that the other considers “just plain dumb” I take notice. So far, neither has directly addressed comments by the other. Their audiences, however, have noticed the contrast, and I’m curious to see how the disagreement plays out.</p>
+
+<p>Tags: <a href='tag_security-experts.html'>security-experts</a></p>
+
+
+
+<!-- text end -->
+]]></description><link>/contact-tracing-apps.html</link>
+<guid>/./contact-tracing-apps.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Sat, 02 May 2020 05:41:12 -0400</pubDate></item>
 </channel></rss>
