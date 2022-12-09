@@ -2,9 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Sun, 04 Dec 2022 08:50:31 -0500</lastBuildDate>
-<pubDate>Sun, 04 Dec 2022 08:50:31 -0500</pubDate>
+<lastBuildDate>Thu, 08 Dec 2022 22:42:19 -0500</lastBuildDate>
+<pubDate>Thu, 08 Dec 2022 22:42:19 -0500</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Email Hosting
+</title><description><![CDATA[
+
+<p>A few months ago, Carlos Fenollosa (the creator of bashblog, the script I use to generate this site) <a href="https://cfenollosa.com/blog/after-self-hosting-my-email-for-twenty-three-years-i-have-thrown-in-the-towel-the-oligopoly-has-won.html">wrote</a> about his decision to quit self-hosting his email after more than twenty years of doing so. He lays out the problems faced by individuals who self-host email and concludes:</p>
+
+<blockquote>
+  <p>One cannot reliably deploy independent email servers...</p>
+
+<p>You cannot set up a home email server.</p>
+
+<p>You cannot set it up on a VPS.</p>
+
+<p>You cannot set it up on your own datacenter. </p>
+</blockquote>
+
+<p>Fenollosa’s post generated significant discussion at <a href="https://lobste.rs/s/icdrmv/after_self_hosting_my_email_for_twenty">Lobste.rs</a> in which Fastmail’s Rob Mueller offers some very thoughtful reflections on the state of email today. Because many of the problems faced by Fenollosa are driven by the pervasiveness of spam (as Fenollosa himself recognizes) <a href="https://lobste.rs/s/icdrmv/after_self_hosting_my_email_for_twenty#c_erae4n">Mueller elaborates</a> on the problem of spam. Spam is big business and driven by big money.</p>
+
+<blockquote>
+  <p>There’s different ways to count it, but there’s capital-B Billions lost to this shit every year. And with that comes small-country-sized amounts of resources to throw at making sure the spam gets through...</p>
+
+<p>People sending spam can and do spend good money...; they’ll pay for the top-tier accounts...</p>
+</blockquote>
+
+<p>That is the email environment in which we operate today.</p>
+
+<p>Tags: <a href='tag_email.html'>email</a></p>
+
+<!-- text end -->
+]]></description><link>/email-hosting.html</link>
+<guid>/./email-hosting.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Thu, 08 Dec 2022 22:38:44 -0500</pubDate></item>
 <item><title>
 On Slide Rules
 </title><description><![CDATA[
@@ -18,6 +51,7 @@ On Slide Rules
 <p>The <em>Miscellaneous Stuff</em> author is worried that fewer and fewer people understand the “basic principles” of the problems they are addressing. I think he may be right about that.</p>
 
 <p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
+
 
 <!-- text end -->
 ]]></description><link>/on-slide-rules.html</link>
@@ -37,6 +71,7 @@ The Need for a Return to the Desktop Computer
 </blockquote>
 
 <p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
+
 
 
 <!-- text end -->
@@ -59,6 +94,7 @@ datagubbe.se Site Colophon
 <p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
 
 
+
 <!-- text end -->
 ]]></description><link>/datagubbese-site-colophon.html</link>
 <guid>/./datagubbese-site-colophon.html</guid>
@@ -71,6 +107,7 @@ Gemini
 <p>Over at <a href="https://oldvcr.blogspot.com/2020/11/a-gopher-view-of-gemini.html">Old Vintage Computing Research</a>, Cameron Kaiser offers a nice comparative analysis of Gopher and the new Gemini protocal. As Kaiser puts it, "Gemini isn't going to displace Gopher — though in fairness nor does it try — because it just simply doesn't scratch the same itches." The whole article is well worth a read.</p>
 
 <p>Tags: <a href='tag_gopher.html'>gopher</a></p>
+
 
 
 <!-- text end -->
@@ -87,6 +124,7 @@ The Original Bashblog
 <p>Tags: <a href='tag_blog-platforms.html'>blog-platforms</a></p>
 
 
+
 <!-- text end -->
 ]]></description><link>/the-original-bashblog.html</link>
 <guid>/./the-original-bashblog.html</guid>
@@ -99,6 +137,7 @@ Moving the Blog to Github
 <p>Cam’s $2.00 a year NAT VPSs are great. So, moving my blog from the VPS I am leasing from Cam to Github is not about any problem with Cam’s services. Instead, I am trying to wean myself off of Cloudflare services. Serving the blog from a NAT VPS requires using a service like Cloudflare’s IPv6 proxy feature which allows you to serve IPv6-only sites to IPv4-only clients. Moving to Github is a step toward eliminating my use of Cloudflare. Moving to Github also means that I can continue to manage the blog from home and push any updates I make from home to the Git repository.</p>
 
 <p>Tags: <a href='tag_site-hosting.html'>site-hosting</a></p>
+
 
 
 
@@ -123,6 +162,7 @@ Self-Hosted vs. Third-Party Email
 
 
 
+
 <!-- text end -->
 ]]></description><link>/self-hosted-vs-third-party-email.html</link>
 <guid>/./self-hosted-vs-third-party-email.html</guid>
@@ -137,6 +177,7 @@ Self-Hosted Email, Part 2
 <p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
 
 <p>Tags: <a href='tag_email.html'>email</a></p>
+
 
 
 
@@ -163,27 +204,10 @@ Self-Hosting My Email
 
 
 
+
 <!-- text end -->
 ]]></description><link>/self-hosting-my-email.html</link>
 <guid>/./self-hosting-my-email.html</guid>
 <dc:creator>oldfolio</dc:creator>
 <pubDate>Tue, 09 Jun 2020 23:32:47 -0400</pubDate></item>
-<item><title>
-Contact Tracing Apps
-</title><description><![CDATA[
-
-<p>I read both <a href="https://www.schneier.com/blog/about/">Bruce Schneier</a> and <a href="https://www.troyhunt.com/about/">Troy Hunt</a> because their writings offer a useful window into how technically literate persons perceive technical issues. That window becomes especially revealing when Schneier and Hunt disagree. Installing a contact tracing app on your phone is supposed to alert you when you come into contact with someone infected with the COVID-19 virus – and also help governments track the spread of the disease. Hunt has been <a href="https://www.troyhunt.com/covidsafe-app-teardown-panel-discussion/">strongly pushing the use of these apps</a> on Twitter and on public panel discussions. Schneier, by contrast, has been arguing that contact tracing apps “<a href="https://www.schneier.com/blog/archives/2020/05/me_on_covad-19_.html">have absolutely no value</a>” and that “the idea that contact tracing can be done with an app...is just plain dumb.”</p>
-
-<p>Schneier and Hunt are both smart, and both have large audiences. Moreover, the intersection of social practice and technology is an important focus in the writings of both. So, when one of them is pushing a position that the other considers “just plain dumb” I take notice. So far, neither has directly addressed comments by the other. Their audiences, however, have noticed the contrast, and I’m curious to see how the disagreement plays out.</p>
-
-<p>Tags: <a href='tag_security-experts.html'>security-experts</a></p>
-
-
-
-
-<!-- text end -->
-]]></description><link>/contact-tracing-apps.html</link>
-<guid>/./contact-tracing-apps.html</guid>
-<dc:creator>oldfolio</dc:creator>
-<pubDate>Sat, 02 May 2020 05:41:12 -0400</pubDate></item>
 </channel></rss>
