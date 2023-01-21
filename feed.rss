@@ -2,9 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Thu, 08 Dec 2022 22:42:19 -0500</lastBuildDate>
-<pubDate>Thu, 08 Dec 2022 22:42:19 -0500</pubDate>
+<lastBuildDate>Sat, 21 Jan 2023 12:53:44 -0500</lastBuildDate>
+<pubDate>Sat, 21 Jan 2023 12:53:44 -0500</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Cheating and AI
+</title><description><![CDATA[
+
+<p>So, I recently stumbled on this <a href="https://shkspr.mobi/blog/2022/11/is-it-cheating-to-use-spell-check/">little post</a> by Terence Eden:</p>
+
+<blockquote>
+  <p>I'm now in the middle of writing up my MSc dissertation. I'm doing it in Google Docs - because I'm a masochist.
+Google Docs has a useful feature called Smart Suggestions which → offers to autocomplete your sentences.
+Is <em>that</em> cheating?
+I've signed a declaration to my University saying that my dissertation is all my own work. But it isn't.
+Google's AI suggested a couple of dozen sentences...</p>
+
+<p>Google Docs knows what I want to write before I write it. Am I merely the <em>editor</em> of machine generated text?</p>
+</blockquote>
+
+<p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
+<!-- text end -->
+]]></description><link>/cheating-and-ai.html</link>
+<guid>/./cheating-and-ai.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Sat, 21 Jan 2023 12:53:37 -0500</pubDate></item>
 <item><title>
 Email Hosting
 </title><description><![CDATA[
@@ -187,27 +209,4 @@ Self-Hosted Email, Part 2
 <guid>/./self-hosted-email-part-2.html</guid>
 <dc:creator>oldfolio</dc:creator>
 <pubDate>Fri, 19 Jun 2020 10:14:53 -0400</pubDate></item>
-<item><title>
-Self-Hosting My Email
-</title><description><![CDATA[
-
-<p>Over the years, I have periodically set up and run my own email server. For the most part, these experiments were simply for learning purposes. I wanted to understand for myself what was involved in running a mail server, but I always took for granted that I would entrust the hosting of my primary email address to someone else -- someone who maintained mail servers for a living, someone working full-time at maintaining the mail server where my address would be managed.</p>
-
-<p>Through all these years, though, I never found an email provider that fully suited me. There are a number of solid, reliable email hosts out there. Inevitably, though, there would be details about each of their services that bothered me. I ended up migrating from one email host to another, never quite satisfied with any of them. So, a couple of weeks ago, I bit the bullet and moved email for my primary domain to a server I am managing myself. Today, I moved email for my secondary domain to that server as well. (Don't worry: I have additional, lower-priority MX records pointing to a backup email solution.)</p>
-
-<p>The final straw was discovering that my provider was silently discarding legitimate messages in an overly aggressive attempt to combat spam. Some of these were personal messages. Some were log-in verification codes that some services send when you log in from a new IP address. The point is that these messages were definitely not spam. I wanted to receive them. In the case of the log-in verification codes, I needed them. If the provider thought that the messages were suspicious, then the messages could have been directed to a spam folder. They weren't. They were simply discarded before they ever reached my account. That is a deal breaker for me.</p>
-
-<p>I don't know how long my foray into self-hosting will last. It may be just another leg of the journey in my restless migration from one host to another. I do know this, though: I really like being able to look at the server logs myself. I'm not sure I could go back to a solution where I cannot do that.</p>
-
-<p>Tags: <a href='tag_email.html'>email</a></p>
-
-
-
-
-
-<!-- text end -->
-]]></description><link>/self-hosting-my-email.html</link>
-<guid>/./self-hosting-my-email.html</guid>
-<dc:creator>oldfolio</dc:creator>
-<pubDate>Tue, 09 Jun 2020 23:32:47 -0400</pubDate></item>
 </channel></rss>
