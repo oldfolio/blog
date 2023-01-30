@@ -2,9 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title><em>oldfolio</em> blog</title><link>/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Sat, 21 Jan 2023 12:53:44 -0500</lastBuildDate>
-<pubDate>Sat, 21 Jan 2023 12:53:44 -0500</pubDate>
+<lastBuildDate>Mon, 30 Jan 2023 13:14:34 -0500</lastBuildDate>
+<pubDate>Mon, 30 Jan 2023 13:14:34 -0500</pubDate>
 <atom:link href="/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Likelihood of Google Account Lockout
+</title><description><![CDATA[
+
+<p>My primary Google account dates back to 2007. I have never been locked out of it. Nonetheless, I have always hesitated to make it my primary online identity for fear of being locked out. I know three people personally who <em>have</em> been locked out. All three cases involved forgotten passwords on accounts where 2FA had not been set up. Two of them eventually got back into their accounts. Unlike my acquaintances, I <em>do</em> have 2FA set up: multiple hardware keys, TOTP authenticator app, backup codes. My account password is stored offline in a KeePassXC database. I don’t think I am as vulnerable to an account lockout as my acquaintances. Yet the fear of lockout still haunts me sufficiently that I cannot bring myself to use that account as my primary online identifier.</p>
+
+<p>So, I was grateful to Jeff Kaufman for digging through lockout reports and trying to determine, “<a href="https://www.jefftk.com/p/how-likely-is-losing-a-google-account">How Likely is Losing a Google Account?</a>” He concludes that if you take a few simple precautions (such as activating 2FA), you are very unlikely to be locked out -- sufficiently unlikely that it is probably safe to use a Gmail address as a primary online identifier. The psychological impact of Hacker News stories about account lockouts continues to weigh heavily on me -- perhaps irrationally so -- and I am still not using a Google account as a primary identifier.</p>
+
+<p>Tags: <a href='tag_tech-trends.html'>tech-trends</a></p>
+<!-- text end -->
+]]></description><link>/likelihood-of-google-account-lockout.html</link>
+<guid>/./likelihood-of-google-account-lockout.html</guid>
+<dc:creator>oldfolio</dc:creator>
+<pubDate>Mon, 30 Jan 2023 13:14:31 -0500</pubDate></item>
 <item><title>
 Cheating and AI
 </title><description><![CDATA[
@@ -190,23 +204,4 @@ Self-Hosted vs. Third-Party Email
 <guid>/./self-hosted-vs-third-party-email.html</guid>
 <dc:creator>oldfolio</dc:creator>
 <pubDate>Thu, 25 Jun 2020 15:47:28 -0400</pubDate></item>
-<item><title>
-Self-Hosted Email, Part 2
-</title><description><![CDATA[
-
-<p>In my last post, I speculated that my experiment with self-hosted email might be "just another leg of the journey in my restless migration from one host to another." One of the big appeals of self-hosting is the ability to look at server logs when diagnosing problems. The corresponding downside is that you need to be monitoring those server logs all the time. That is exactly the sort of tedious task that I would like to hand over to someone else.</p>
-
-<p>In any case, I currently have my email hosted with <a href="https://runbox.com/">Runbox</a>, but I ran across a <a href="https://github.com/LukeSmithxyz/emailwiz">script</a> by <a href="https://lukesmith.xyz/">Luke Smith</a> that sets up and configures an email server on Debian-based systems that is close to the way that I set up email servers manually for myself. So, I am thinking that if I am ever tempted to run my own email server in the future I should try the script. The script is elegant in its simplicity and has all the comments you need to understand what it is doing.</p>
-
-<p>Tags: <a href='tag_email.html'>email</a></p>
-
-
-
-
-
-<!-- text end -->
-]]></description><link>/self-hosted-email-part-2.html</link>
-<guid>/./self-hosted-email-part-2.html</guid>
-<dc:creator>oldfolio</dc:creator>
-<pubDate>Fri, 19 Jun 2020 10:14:53 -0400</pubDate></item>
 </channel></rss>
